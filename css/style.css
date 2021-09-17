@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+body{
+    margin: 0;
+    background: rgb(194,174,238);
+    background: linear-gradient(90deg, rgba(194,174,238,1) 2%, rgba(148,233,230,1) 98%);
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.mainblock{
+    width: 100%;
+    height: 100%;
+    padding-top: 40px;
+    margin-bottom: 60px;
+}
+.blockCenter{
+    width: 80%;
+    margin: auto;
+}
+.mainCard{
+    width: 60%;
+    height: 300px;
+    margin: auto;
+    background: white;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.leftCard{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.leftCard img{
+    width: 80%;
+    height: 80%;
+}
+
+.rightCard{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rightCard h2{
+    width: 80%;
+}
+
+
+
+.main{
+    width: 100%;
+    margin-top: 60px;
+    margin-bottom: 50px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center; 
+}
+
+.card{
+    height: 200px;
+    width: 250px;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 30px;
+    background: rgba( 255, 255, 255, 0.4 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 1.5px );
+    -webkit-backdrop-filter: blur( 1.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.cardM{
+    background: rgba( 255, 255, 255, 0.4 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 1.5px );
+    -webkit-backdrop-filter: blur( 1.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+
+    height: 400px;
+    width: 300px;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 30px;
+} 
+
+
+
+.card_content{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    color: black;
+}
+
+
+.cardM .image{
+    width: 50%;
+    height: 50%;
+    margin: auto;
+}
+.cardM img{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.more{
+    background-color: white;
+    outline: none;
+    border: 1px solid black;
+    width: 40%;
+    height: 40px;
+    cursor: pointer;
+}
+
+
+.buttonsBlock{
+    margin: 30px auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.buttons{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.buttons button{
+    background: white;
+    border-radius: 30px;
+    border: 1px solid black;
+    outline: 0;
+    height: 30px;
+    width: 6%;
+    margin: 0 2px;
+    cursor: pointer;
+}
+
+.buttons button:hover{
+    background: black;
+    color: white;
+}
